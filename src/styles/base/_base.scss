@@ -1,0 +1,19 @@
+html {
+  font-size: 130%;
+}
+
+body {
+  font-size: $m-size;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: default;
+}
+
+.is-active {
+  font-weight: bold;
+}

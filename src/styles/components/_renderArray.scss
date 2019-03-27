@@ -1,0 +1,68 @@
+.studentContainer{
+  padding: 40px;
+  border-bottom: 1px solid grey
+}
+
+.studentContainer ul{
+  list-style-type: none;
+}
+
+#secondContainer {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.hideButton{
+  background: none;
+  border: none;
+  color: grey;
+  font-weight: bold;
+  font-size: 200%
+}
+
+.hideButton:focus{
+  outline: none
+}
+
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 20px;
+  border: 2px solid white
+}
+
+.gradesDisplay {
+  padding-top: 20px;
+  display: none
+}
+
+.pic {
+  border: 1px solid grey;
+  width: 120px;
+  border-radius: 50%
+}
+
+.tag {
+  display: inline-block;
+  border: 1px solid #DCDCDC;
+  background-color: #DCDCDC;
+  border-radius: 4px;
+  margin: 3px;
+  padding: 5px
+}
+
+input{
+  display: block;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid grey;
+  padding: 10px
+}
+
+input:focus{
+  outline: 0;
+  border-bottom: 2px solid grey
+}
